@@ -1,0 +1,20 @@
+[0m[[0m[31merror[0m] [0m[0merror while loading TestAvatar, class file '/private/student/o/ho/kho/Documents/L2/S2/GEN/TP_Avatar/avatar-main/lib/client.jar(automaticTester/TestAvatar.class)' is broken[0m
+[0m[[0m[31merror[0m] [0m[0m(class java.lang.RuntimeException/error reading Scala signature of TestAvatar.class: Scala signature TestAvatar has wrong version[0m
+[0m[[0m[31merror[0m] [0m[0m expected: 5.0[0m
+[0m[[0m[31merror[0m] [0m[0m found: 5.2 in TestAvatar.class)[0m
+[0m[[0m[31merror[0m] [0m[0m/private/student/o/ho/kho/Documents/L2/S2/GEN/TP_Avatar/avatar-main/src/main/scala/machine/MachineImpl.scala:3:12: object sourcegraph is not a member of package com[0m
+[0m[[0m[31merror[0m] [0m[0mimport com.sourcegraph.semanticdb_javac.Result[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/private/student/o/ho/kho/Documents/L2/S2/GEN/TP_Avatar/avatar-main/src/main/scala/machine/Parseur.scala:4:8: not found: object opennlp[0m
+[0m[[0m[31merror[0m] [0m[0mimport opennlp.tools.postag.POSModel[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/private/student/o/ho/kho/Documents/L2/S2/GEN/TP_Avatar/avatar-main/src/main/scala/machine/Parseur.scala:5:8: not found: object opennlp[0m
+[0m[[0m[31merror[0m] [0m[0mimport opennlp.tools.postag.POSTaggerME[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/private/student/o/ho/kho/Documents/L2/S2/GEN/TP_Avatar/avatar-main/src/main/scala/machine/Parseur.scala:252:21: not found: type POSModel[0m
+[0m[[0m[31merror[0m] [0m[0m    val model = new POSModel(modelIn)[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/private/student/o/ho/kho/Documents/L2/S2/GEN/TP_Avatar/avatar-main/src/main/scala/machine/Parseur.scala:253:22: not found: type POSTaggerME[0m
+[0m[[0m[31merror[0m] [0m[0m    val tagger = new POSTaggerME(model)[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m6 errors found[0m
